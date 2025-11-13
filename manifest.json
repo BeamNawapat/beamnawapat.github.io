@@ -1,25 +1,34 @@
 {
-    "short_name": "Portfolio Nawapat",
-    "name": "Portfolio | Nawapat",
+    "short_name": "Nawapat",
+    "name": "Nawapat Portfolio - Full-stack Developer",
+    "description": "Portfolio of Nawapat - Full-stack developer specializing in blockchain, web development, and innovative software solutions",
     "icons": [
         {
             "src": "Beam.png",
             "sizes": "64x64 32x32 24x24 16x16",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "Beam.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "any maskable"
         },
         {
             "src": "Beam.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any maskable"
         }
     ],
-    "start_url": ".",
+    "start_url": "/",
+    "scope": "/",
     "display": "standalone",
+    "orientation": "portrait-primary",
     "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "background_color": "#ffffff",
+    "categories": ["portfolio", "developer", "technology"],
+    "lang": "en-US",
+    "dir": "ltr"
 }

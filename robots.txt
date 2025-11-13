@@ -1,3 +1,11 @@
 # https://www.robotstxt.org/robotstxt.html
+# Portfolio website for Nawapat
+
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /static/
+Disallow: /vendor/
+Disallow: /assets/
+
+# Sitemap
+Sitemap: https://BeamNawapat.github.io/sitemap.xml
